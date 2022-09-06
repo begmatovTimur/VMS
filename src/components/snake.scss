@@ -1,0 +1,21 @@
+.snakeBox {
+    display: flex;
+    .topBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+    }
+    .playground {
+        background-color: black;
+        width: 400px;
+        height: 400px;
+    }
+
+    .snake {
+        background-color: white;
+        width: 30px;
+        height: 30px;
+    }
+}
